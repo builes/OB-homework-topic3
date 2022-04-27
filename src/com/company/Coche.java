@@ -2,6 +2,7 @@ package com.company;
 
 public class Coche {
 
+
     //si no le asignamos ningun valor por defecto viene en cero para las variables tipo int
     private int numeroPuertas;
 
