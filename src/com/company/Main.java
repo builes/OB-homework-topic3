@@ -20,35 +20,48 @@ public class Main {
 
 
         //Esto siempre lo ponemos que vamos a pedir datos por teclado con la clase Scanner
-        Scanner sc = new Scanner(System.in);
+//        Scanner sc = new Scanner(System.in);
+//
+//        //Asi pedimos por teclado un numero
+//        int n1 = sc.nextInt();
+//
+//        if(n1 > 0){
+//            System.out.println("positivo");
+//        }else if(n1 < 0){
+//            System.out.println("negativo");
+//        }else{
+//            System.out.println("cero");
+//        }
+//
+//        String season = "Winter";
+//
+//        switch (season){
+//            case("Summer"):
+//                System.out.printf("We are on summer");
+//                break;
+//            case("Autumn"):
+//                System.out.printf("We are on autumn");
+//                break;
+//            case("Winter"):
+//                System.out.printf("We are on winter");
+//                break;
+//            case("Spring"):
+//                System.out.printf("We are on spring");
+//                break;
+//        }
 
-        //Asi pedimos por teclado un numero
-        int n1 = sc.nextInt();
 
-        if(n1 > 0){
-            System.out.println("positivo");
-        }else if(n1 < 0){
-            System.out.println("negativo");
-        }else{
-            System.out.println("cero");
-        }
 
-        String season = "Winter";
+        //Creamos un objeto de la clase Persona que es donde esta el codigo del tema 8
+        System.out.println("\nEjercicio tema 8");
+        Persona persona = new Persona();
+        persona.setEdad(29);
+        persona.setNombre("Mauricio Builes");
+        persona.setTelefono("3013201103");
 
-        switch (season){
-            case("Summer"):
-                System.out.printf("We are on summer");
-                break;
-            case("Autumn"):
-                System.out.printf("We are on autumn");
-                break;
-            case("Winter"):
-                System.out.printf("We are on winter");
-                break;
-            case("Spring"):
-                System.out.printf("We are on spring");
-                break;
-        }
+        System.out.println(persona.getNombre());
+        System.out.println(persona.getEdad());
+        System.out.println(persona.getTelefono());
 
 
 
