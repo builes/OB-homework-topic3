@@ -53,16 +53,21 @@ public class Main {
 
 
         //Creamos un objeto de la clase Persona que es donde esta el codigo del tema 8
-        System.out.println("\nEjercicio tema 8");
-        Persona persona = new Persona();
-        persona.setEdad(29);
-        persona.setNombre("Mauricio Builes");
-        persona.setTelefono("3013201103");
+//        System.out.println("\nEjercicio tema 8");
+//        Persona persona = new Persona();
+//        persona.setEdad(29);
+//        persona.setNombre("Mauricio Builes");
+//        persona.setTelefono("3013201103");
+//
+//        System.out.println(persona.getNombre());
+//        System.out.println(persona.getEdad());
+//        System.out.println(persona.getTelefono());
 
-        System.out.println(persona.getNombre());
-        System.out.println(persona.getEdad());
-        System.out.println(persona.getTelefono());
 
+
+        //Creamos un objeto de la clase cliente la cual hereda de Persona
+        Cliente cliente1 = new Cliente(32, "Mauricio", "3013201103", 3205468);
+        System.out.println(cliente1.toString());
 
 
 
